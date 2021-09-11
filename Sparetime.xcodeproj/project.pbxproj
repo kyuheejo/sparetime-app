@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700B8EC8C9D7E834D74AD88E /* libPods-SparetimeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB3950AF29E73DA03AD8FAC /* libPods-SparetimeUITests.a */; };
+		701C1FCA35E2462586E49A2F /* libPods-Sparetime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7B62D8088E70509D1EA266 /* libPods-Sparetime.a */; };
+		881BBAE12405882F006EE41B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBAE02405882F006EE41B /* AppDelegate.m */; };
+		881BBAE42405882F006EE41B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBAE32405882F006EE41B /* ViewController.m */; };
+		881BBAE72405882F006EE41B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881BBAE52405882F006EE41B /* Main.storyboard */; };
+		881BBAEA2405882F006EE41B /* Sparetime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 881BBAE82405882F006EE41B /* Sparetime.xcdatamodeld */; };
+		881BBAEC24058831006EE41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881BBAEB24058831006EE41B /* Assets.xcassets */; };
+		881BBAEF24058831006EE41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881BBAED24058831006EE41B /* LaunchScreen.storyboard */; };
+		881BBAF224058831006EE41B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBAF124058831006EE41B /* main.m */; };
+		881BBAFC24058831006EE41B /* SparetimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBAFB24058831006EE41B /* SparetimeTests.m */; };
+		881BBB0724058831006EE41B /* SparetimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBB0624058831006EE41B /* SparetimeUITests.m */; };
+		881BBB1724058A8E006EE41B /* Main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881BBB1624058A8E006EE41B /* Main.jpg */; };
+		881BBB1A24058C99006EE41B /* splashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBB1924058C99006EE41B /* splashViewController.m */; };
+		881BBB1D24058F73006EE41B /* emailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBB1C24058F73006EE41B /* emailViewController.m */; };
+		881BBB202405B4ED006EE41B /* phoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBB1F2405B4EC006EE41B /* phoneViewController.m */; };
+		881BBB232405B9D1006EE41B /* syncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBB222405B9D1006EE41B /* syncViewController.m */; };
+		881BBB262405BD8F006EE41B /* googleCalendarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 881BBB242405BD8E006EE41B /* googleCalendarIcon.png */; };
+		881BBB272405BD8F006EE41B /* appleCalendarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 881BBB252405BD8F006EE41B /* appleCalendarIcon.png */; };
+		881BBB2A2405C0FE006EE41B /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BBB282405C0FE006EE41B /* EventKitUI.framework */; };
+		881BBB2B2405C0FE006EE41B /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881BBB292405C0FE006EE41B /* EventKit.framework */; };
+		881BBB2E2405C134006EE41B /* GoogleOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBB2D2405C134006EE41B /* GoogleOAuth.m */; };
+		881BBB312405C4AC006EE41B /* eventObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBB302405C4AC006EE41B /* eventObject.m */; };
+		881BBB342406ECFB006EE41B /* DownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBB332406ECFA006EE41B /* DownPicker.m */; };
+		881BBB372406ED20006EE41B /* googleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBB352406ED20006EE41B /* googleViewController.m */; };
+		881BBB392407114D006EE41B /* Item1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 881BBB382407114C006EE41B /* Item1.jpg */; };
+		881BBB4224071469006EE41B /* peopleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 881BBB3F24071468006EE41B /* peopleicon.png */; };
+		881BBB4324071469006EE41B /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 881BBB4024071468006EE41B /* clockicon.png */; };
+		881BBB462407149D006EE41B /* eventsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBB452407149D006EE41B /* eventsTableView.m */; };
+		881BBB492407416D006EE41B /* activityObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BBB482407416D006EE41B /* activityObject.m */; };
+		88A924CC242D733400C9466A /* quaranteeen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A924CB242D733300C9466A /* quaranteeen.jpg */; };
+		88A924CE242D879000C9466A /* quarenteennew.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A924CD242D878F00C9466A /* quarenteennew.png */; };
+		88B9D86D240AB94A00922B2A /* settingsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B9D86C240AB94A00922B2A /* settingsicon.png */; };
+		88B9D877240AC0D200922B2A /* locationicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B9D874240AC0D000922B2A /* locationicon.png */; };
+		88B9D878240AC0D200922B2A /* emptyhearticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B9D875240AC0D100922B2A /* emptyhearticon.png */; };
+		88B9D879240AC0D200922B2A /* fullhearticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 88B9D876240AC0D200922B2A /* fullhearticon.png */; };
+		88F3DC1F240B1A6A005F3426 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F3DC1E240B1A6A005F3426 /* Arrow.png */; };
+		88F3DC22240B2056005F3426 /* initialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F3DC21240B2056005F3426 /* initialViewController.m */; };
+		88F3DC25240B2682005F3426 /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F3DC24240B2682005F3426 /* settingsViewController.m */; };
+		88F3DC28240D966F005F3426 /* SparetimeLogo120.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 88F3DC26240D966E005F3426 /* SparetimeLogo120.jpeg */; };
+		88F3DC29240D966F005F3426 /* SparetimeLogo180.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 88F3DC27240D966E005F3426 /* SparetimeLogo180.jpeg */; };
+		88F3DC2B240D96B0005F3426 /* SparetimeLogo1024.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 88F3DC2A240D96B0005F3426 /* SparetimeLogo1024.jpeg */; };
+		88F3DC2D2412C1E1005F3426 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88F3DC2C2412C1E1005F3426 /* GoogleService-Info.plist */; };
+		88F3DC2F2412C9EC005F3426 /* rectangle12.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F3DC2E2412C9EB005F3426 /* rectangle12.png */; };
+		88F3DC322412CA95005F3426 /* interestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F3DC312412CA95005F3426 /* interestsViewController.m */; };
+		88F3DC342412F840005F3426 /* ovalrectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F3DC332412F840005F3426 /* ovalrectangle.png */; };
+		88F3DC362412F88A005F3426 /* oval12.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F3DC352412F88A005F3426 /* oval12.png */; };
+		D9BC7E5AEBAFDF6BA88AB84A /* libPods-SparetimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A956739AB1C97F133D98C7BE /* libPods-SparetimeTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		881BBAF824058831006EE41B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881BBAD42405882F006EE41B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881BBADB2405882F006EE41B;
+			remoteInfo = Sparetime;
+		};
+		881BBB0324058831006EE41B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 881BBAD42405882F006EE41B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881BBADB2405882F006EE41B;
+			remoteInfo = Sparetime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B7B62D8088E70509D1EA266 /* libPods-Sparetime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sparetime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2EFC685BB6B8923A932809 /* Pods-SparetimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparetimeUITests.release.xcconfig"; path = "Target Support Files/Pods-SparetimeUITests/Pods-SparetimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CB3950AF29E73DA03AD8FAC /* libPods-SparetimeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SparetimeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C40AE9BD862DE9DA392445 /* Pods-Sparetime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparetime.release.xcconfig"; path = "Target Support Files/Pods-Sparetime/Pods-Sparetime.release.xcconfig"; sourceTree = "<group>"; };
+		7F92D1A7AEEB1F8CCE1781D3 /* Pods-Sparetime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparetime.debug.xcconfig"; path = "Target Support Files/Pods-Sparetime/Pods-Sparetime.debug.xcconfig"; sourceTree = "<group>"; };
+		881BBADC2405882F006EE41B /* Sparetime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sparetime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		881BBADF2405882F006EE41B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		881BBAE02405882F006EE41B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		881BBAE22405882F006EE41B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		881BBAE32405882F006EE41B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		881BBAE62405882F006EE41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		881BBAE92405882F006EE41B /* Sparetime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sparetime.xcdatamodel; sourceTree = "<group>"; };
+		881BBAEB24058831006EE41B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881BBAEE24058831006EE41B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		881BBAF024058831006EE41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881BBAF124058831006EE41B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		881BBAF724058831006EE41B /* SparetimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparetimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		881BBAFB24058831006EE41B /* SparetimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SparetimeTests.m; sourceTree = "<group>"; };
+		881BBAFD24058831006EE41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881BBB0224058831006EE41B /* SparetimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparetimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		881BBB0624058831006EE41B /* SparetimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SparetimeUITests.m; sourceTree = "<group>"; };
+		881BBB0824058832006EE41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		881BBB1624058A8E006EE41B /* Main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Main.jpg; sourceTree = "<group>"; };
+		881BBB1824058C99006EE41B /* splashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = splashViewController.h; sourceTree = "<group>"; };
+		881BBB1924058C99006EE41B /* splashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = splashViewController.m; sourceTree = "<group>"; };
+		881BBB1B24058F73006EE41B /* emailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = emailViewController.h; sourceTree = "<group>"; };
+		881BBB1C24058F73006EE41B /* emailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = emailViewController.m; sourceTree = "<group>"; };
+		881BBB1E2405B4EC006EE41B /* phoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = phoneViewController.h; sourceTree = "<group>"; };
+		881BBB1F2405B4EC006EE41B /* phoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = phoneViewController.m; sourceTree = "<group>"; };
+		881BBB212405B9D1006EE41B /* syncViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = syncViewController.h; sourceTree = "<group>"; };
+		881BBB222405B9D1006EE41B /* syncViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = syncViewController.m; sourceTree = "<group>"; };
+		881BBB242405BD8E006EE41B /* googleCalendarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleCalendarIcon.png; sourceTree = "<group>"; };
+		881BBB252405BD8F006EE41B /* appleCalendarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appleCalendarIcon.png; sourceTree = "<group>"; };
+		881BBB282405C0FE006EE41B /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		881BBB292405C0FE006EE41B /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		881BBB2C2405C134006EE41B /* GoogleOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleOAuth.h; sourceTree = "<group>"; };
+		881BBB2D2405C134006EE41B /* GoogleOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleOAuth.m; sourceTree = "<group>"; };
+		881BBB2F2405C4AC006EE41B /* eventObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eventObject.h; sourceTree = "<group>"; };
+		881BBB302405C4AC006EE41B /* eventObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eventObject.m; sourceTree = "<group>"; };
+		881BBB322406ECFA006EE41B /* DownPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownPicker.h; sourceTree = "<group>"; };
+		881BBB332406ECFA006EE41B /* DownPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownPicker.m; sourceTree = "<group>"; };
+		881BBB352406ED20006EE41B /* googleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = googleViewController.m; sourceTree = "<group>"; };
+		881BBB362406ED20006EE41B /* googleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = googleViewController.h; sourceTree = "<group>"; };
+		881BBB382407114C006EE41B /* Item1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Item1.jpg; sourceTree = "<group>"; };
+		881BBB3F24071468006EE41B /* peopleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peopleicon.png; sourceTree = "<group>"; };
+		881BBB4024071468006EE41B /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
+		881BBB442407149D006EE41B /* eventsTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eventsTableView.h; sourceTree = "<group>"; };
+		881BBB452407149D006EE41B /* eventsTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eventsTableView.m; sourceTree = "<group>"; };
+		881BBB472407416D006EE41B /* activityObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = activityObject.h; sourceTree = "<group>"; };
+		881BBB482407416D006EE41B /* activityObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = activityObject.m; sourceTree = "<group>"; };
+		88A924CB242D733300C9466A /* quaranteeen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quaranteeen.jpg; sourceTree = "<group>"; };
+		88A924CD242D878F00C9466A /* quarenteennew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quarenteennew.png; sourceTree = "<group>"; };
+		88B9D86C240AB94A00922B2A /* settingsicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsicon.png; sourceTree = "<group>"; };
+		88B9D874240AC0D000922B2A /* locationicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationicon.png; sourceTree = "<group>"; };
+		88B9D875240AC0D100922B2A /* emptyhearticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyhearticon.png; sourceTree = "<group>"; };
+		88B9D876240AC0D200922B2A /* fullhearticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullhearticon.png; sourceTree = "<group>"; };
+		88F3DC1E240B1A6A005F3426 /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		88F3DC20240B2056005F3426 /* initialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = initialViewController.h; sourceTree = "<group>"; };
+		88F3DC21240B2056005F3426 /* initialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = initialViewController.m; sourceTree = "<group>"; };
+		88F3DC23240B2682005F3426 /* settingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = settingsViewController.h; sourceTree = "<group>"; };
+		88F3DC24240B2682005F3426 /* settingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = settingsViewController.m; sourceTree = "<group>"; };
+		88F3DC26240D966E005F3426 /* SparetimeLogo120.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SparetimeLogo120.jpeg; sourceTree = "<group>"; };
+		88F3DC27240D966E005F3426 /* SparetimeLogo180.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SparetimeLogo180.jpeg; sourceTree = "<group>"; };
+		88F3DC2A240D96B0005F3426 /* SparetimeLogo1024.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SparetimeLogo1024.jpeg; sourceTree = "<group>"; };
+		88F3DC2C2412C1E1005F3426 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88F3DC2E2412C9EB005F3426 /* rectangle12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectangle12.png; sourceTree = "<group>"; };
+		88F3DC302412CA95005F3426 /* interestsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interestsViewController.h; sourceTree = "<group>"; };
+		88F3DC312412CA95005F3426 /* interestsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = interestsViewController.m; sourceTree = "<group>"; };
+		88F3DC332412F840005F3426 /* ovalrectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ovalrectangle.png; sourceTree = "<group>"; };
+		88F3DC352412F88A005F3426 /* oval12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oval12.png; sourceTree = "<group>"; };
+		A956739AB1C97F133D98C7BE /* libPods-SparetimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SparetimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47570A68C9A82E2BACD0225 /* Pods-SparetimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparetimeUITests.debug.xcconfig"; path = "Target Support Files/Pods-SparetimeUITests/Pods-SparetimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC751AC7107297C5AE87EDCA /* Pods-SparetimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparetimeTests.release.xcconfig"; path = "Target Support Files/Pods-SparetimeTests/Pods-SparetimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6D94D7E18529967970A9594 /* Pods-SparetimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparetimeTests.debug.xcconfig"; path = "Target Support Files/Pods-SparetimeTests/Pods-SparetimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		881BBAD92405882F006EE41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881BBB2A2405C0FE006EE41B /* EventKitUI.framework in Frameworks */,
+				881BBB2B2405C0FE006EE41B /* EventKit.framework in Frameworks */,
+				701C1FCA35E2462586E49A2F /* libPods-Sparetime.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881BBAF424058831006EE41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BC7E5AEBAFDF6BA88AB84A /* libPods-SparetimeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881BBAFF24058831006EE41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700B8EC8C9D7E834D74AD88E /* libPods-SparetimeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19CB579D955583BBD21066B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				881BBB292405C0FE006EE41B /* EventKit.framework */,
+				881BBB282405C0FE006EE41B /* EventKitUI.framework */,
+				0B7B62D8088E70509D1EA266 /* libPods-Sparetime.a */,
+				A956739AB1C97F133D98C7BE /* libPods-SparetimeTests.a */,
+				4CB3950AF29E73DA03AD8FAC /* libPods-SparetimeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		881BBAD32405882F006EE41B = {
+			isa = PBXGroup;
+			children = (
+				881BBADE2405882F006EE41B /* Sparetime */,
+				881BBAFA24058831006EE41B /* SparetimeTests */,
+				881BBB0524058831006EE41B /* SparetimeUITests */,
+				881BBADD2405882F006EE41B /* Products */,
+				FBE17FBFC44842BB45CA7109 /* Pods */,
+				19CB579D955583BBD21066B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		881BBADD2405882F006EE41B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				881BBADC2405882F006EE41B /* Sparetime.app */,
+				881BBAF724058831006EE41B /* SparetimeTests.xctest */,
+				881BBB0224058831006EE41B /* SparetimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		881BBADE2405882F006EE41B /* Sparetime */ = {
+			isa = PBXGroup;
+			children = (
+				881BBADF2405882F006EE41B /* AppDelegate.h */,
+				881BBAE02405882F006EE41B /* AppDelegate.m */,
+				88F3DC20240B2056005F3426 /* initialViewController.h */,
+				88F3DC21240B2056005F3426 /* initialViewController.m */,
+				881BBB1824058C99006EE41B /* splashViewController.h */,
+				881BBB1924058C99006EE41B /* splashViewController.m */,
+				881BBB1B24058F73006EE41B /* emailViewController.h */,
+				881BBB1C24058F73006EE41B /* emailViewController.m */,
+				881BBB1E2405B4EC006EE41B /* phoneViewController.h */,
+				881BBB1F2405B4EC006EE41B /* phoneViewController.m */,
+				88F3DC302412CA95005F3426 /* interestsViewController.h */,
+				88F3DC312412CA95005F3426 /* interestsViewController.m */,
+				88F3DC23240B2682005F3426 /* settingsViewController.h */,
+				88F3DC24240B2682005F3426 /* settingsViewController.m */,
+				881BBB212405B9D1006EE41B /* syncViewController.h */,
+				881BBB222405B9D1006EE41B /* syncViewController.m */,
+				881BBB362406ED20006EE41B /* googleViewController.h */,
+				881BBB352406ED20006EE41B /* googleViewController.m */,
+				881BBB442407149D006EE41B /* eventsTableView.h */,
+				881BBB452407149D006EE41B /* eventsTableView.m */,
+				881BBAE22405882F006EE41B /* ViewController.h */,
+				881BBAE32405882F006EE41B /* ViewController.m */,
+				881BBB2C2405C134006EE41B /* GoogleOAuth.h */,
+				881BBB2D2405C134006EE41B /* GoogleOAuth.m */,
+				881BBB472407416D006EE41B /* activityObject.h */,
+				881BBB482407416D006EE41B /* activityObject.m */,
+				881BBB2F2405C4AC006EE41B /* eventObject.h */,
+				881BBB302405C4AC006EE41B /* eventObject.m */,
+				881BBB322406ECFA006EE41B /* DownPicker.h */,
+				881BBB332406ECFA006EE41B /* DownPicker.m */,
+				881BBAE52405882F006EE41B /* Main.storyboard */,
+				881BBAEB24058831006EE41B /* Assets.xcassets */,
+				881BBAED24058831006EE41B /* LaunchScreen.storyboard */,
+				881BBAF024058831006EE41B /* Info.plist */,
+				881BBAF124058831006EE41B /* main.m */,
+				881BBAE82405882F006EE41B /* Sparetime.xcdatamodeld */,
+				88A924CB242D733300C9466A /* quaranteeen.jpg */,
+				88A924CD242D878F00C9466A /* quarenteennew.png */,
+				88F3DC1E240B1A6A005F3426 /* Arrow.png */,
+				88F3DC352412F88A005F3426 /* oval12.png */,
+				88F3DC2C2412C1E1005F3426 /* GoogleService-Info.plist */,
+				88F3DC332412F840005F3426 /* ovalrectangle.png */,
+				88F3DC2E2412C9EB005F3426 /* rectangle12.png */,
+				88F3DC2A240D96B0005F3426 /* SparetimeLogo1024.jpeg */,
+				88F3DC26240D966E005F3426 /* SparetimeLogo120.jpeg */,
+				88F3DC27240D966E005F3426 /* SparetimeLogo180.jpeg */,
+				88B9D875240AC0D100922B2A /* emptyhearticon.png */,
+				88B9D876240AC0D200922B2A /* fullhearticon.png */,
+				88B9D874240AC0D000922B2A /* locationicon.png */,
+				88B9D86C240AB94A00922B2A /* settingsicon.png */,
+				881BBB4024071468006EE41B /* clockicon.png */,
+				881BBB3F24071468006EE41B /* peopleicon.png */,
+				881BBB382407114C006EE41B /* Item1.jpg */,
+				881BBB1624058A8E006EE41B /* Main.jpg */,
+				881BBB252405BD8F006EE41B /* appleCalendarIcon.png */,
+				881BBB242405BD8E006EE41B /* googleCalendarIcon.png */,
+			);
+			path = Sparetime;
+			sourceTree = "<group>";
+		};
+		881BBAFA24058831006EE41B /* SparetimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				881BBAFB24058831006EE41B /* SparetimeTests.m */,
+				881BBAFD24058831006EE41B /* Info.plist */,
+			);
+			path = SparetimeTests;
+			sourceTree = "<group>";
+		};
+		881BBB0524058831006EE41B /* SparetimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				881BBB0624058831006EE41B /* SparetimeUITests.m */,
+				881BBB0824058832006EE41B /* Info.plist */,
+			);
+			path = SparetimeUITests;
+			sourceTree = "<group>";
+		};
+		FBE17FBFC44842BB45CA7109 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F92D1A7AEEB1F8CCE1781D3 /* Pods-Sparetime.debug.xcconfig */,
+				69C40AE9BD862DE9DA392445 /* Pods-Sparetime.release.xcconfig */,
+				F6D94D7E18529967970A9594 /* Pods-SparetimeTests.debug.xcconfig */,
+				EC751AC7107297C5AE87EDCA /* Pods-SparetimeTests.release.xcconfig */,
+				B47570A68C9A82E2BACD0225 /* Pods-SparetimeUITests.debug.xcconfig */,
+				3F2EFC685BB6B8923A932809 /* Pods-SparetimeUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		881BBADB2405882F006EE41B /* Sparetime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881BBB0B24058832006EE41B /* Build configuration list for PBXNativeTarget "Sparetime" */;
+			buildPhases = (
+				3A3BD7258832A1975A868A5A /* [CP] Check Pods Manifest.lock */,
+				881BBAD82405882F006EE41B /* Sources */,
+				881BBAD92405882F006EE41B /* Frameworks */,
+				881BBADA2405882F006EE41B /* Resources */,
+				E0B60E601CAB9CE58DE82325 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sparetime;
+			productName = Sparetime;
+			productReference = 881BBADC2405882F006EE41B /* Sparetime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		881BBAF624058831006EE41B /* SparetimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881BBB0E24058832006EE41B /* Build configuration list for PBXNativeTarget "SparetimeTests" */;
+			buildPhases = (
+				CD2B83D0F3265274CB5A2661 /* [CP] Check Pods Manifest.lock */,
+				881BBAF324058831006EE41B /* Sources */,
+				881BBAF424058831006EE41B /* Frameworks */,
+				881BBAF524058831006EE41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881BBAF924058831006EE41B /* PBXTargetDependency */,
+			);
+			name = SparetimeTests;
+			productName = SparetimeTests;
+			productReference = 881BBAF724058831006EE41B /* SparetimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		881BBB0124058831006EE41B /* SparetimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 881BBB1124058832006EE41B /* Build configuration list for PBXNativeTarget "SparetimeUITests" */;
+			buildPhases = (
+				73352B223133B58336F550F8 /* [CP] Check Pods Manifest.lock */,
+				881BBAFE24058831006EE41B /* Sources */,
+				881BBAFF24058831006EE41B /* Frameworks */,
+				881BBB0024058831006EE41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				881BBB0424058831006EE41B /* PBXTargetDependency */,
+			);
+			name = SparetimeUITests;
+			productName = SparetimeUITests;
+			productReference = 881BBB0224058831006EE41B /* SparetimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		881BBAD42405882F006EE41B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Brian Fisher";
+				TargetAttributes = {
+					881BBADB2405882F006EE41B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					881BBAF624058831006EE41B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 881BBADB2405882F006EE41B;
+					};
+					881BBB0124058831006EE41B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 881BBADB2405882F006EE41B;
+					};
+				};
+			};
+			buildConfigurationList = 881BBAD72405882F006EE41B /* Build configuration list for PBXProject "Sparetime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 881BBAD32405882F006EE41B;
+			productRefGroup = 881BBADD2405882F006EE41B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881BBADB2405882F006EE41B /* Sparetime */,
+				881BBAF624058831006EE41B /* SparetimeTests */,
+				881BBB0124058831006EE41B /* SparetimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		881BBADA2405882F006EE41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B9D879240AC0D200922B2A /* fullhearticon.png in Resources */,
+				881BBB392407114D006EE41B /* Item1.jpg in Resources */,
+				881BBAEF24058831006EE41B /* LaunchScreen.storyboard in Resources */,
+				88F3DC342412F840005F3426 /* ovalrectangle.png in Resources */,
+				881BBB4324071469006EE41B /* clockicon.png in Resources */,
+				88F3DC1F240B1A6A005F3426 /* Arrow.png in Resources */,
+				881BBB4224071469006EE41B /* peopleicon.png in Resources */,
+				88F3DC28240D966F005F3426 /* SparetimeLogo120.jpeg in Resources */,
+				88F3DC29240D966F005F3426 /* SparetimeLogo180.jpeg in Resources */,
+				88F3DC2F2412C9EC005F3426 /* rectangle12.png in Resources */,
+				88B9D877240AC0D200922B2A /* locationicon.png in Resources */,
+				88F3DC2B240D96B0005F3426 /* SparetimeLogo1024.jpeg in Resources */,
+				881BBB1724058A8E006EE41B /* Main.jpg in Resources */,
+				88F3DC2D2412C1E1005F3426 /* GoogleService-Info.plist in Resources */,
+				881BBAEC24058831006EE41B /* Assets.xcassets in Resources */,
+				88A924CE242D879000C9466A /* quarenteennew.png in Resources */,
+				881BBAE72405882F006EE41B /* Main.storyboard in Resources */,
+				88B9D86D240AB94A00922B2A /* settingsicon.png in Resources */,
+				88B9D878240AC0D200922B2A /* emptyhearticon.png in Resources */,
+				881BBB272405BD8F006EE41B /* appleCalendarIcon.png in Resources */,
+				881BBB262405BD8F006EE41B /* googleCalendarIcon.png in Resources */,
+				88F3DC362412F88A005F3426 /* oval12.png in Resources */,
+				88A924CC242D733400C9466A /* quaranteeen.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881BBAF524058831006EE41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881BBB0024058831006EE41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A3BD7258832A1975A868A5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sparetime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73352B223133B58336F550F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparetimeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2B83D0F3265274CB5A2661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparetimeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B60E601CAB9CE58DE82325 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sparetime/Pods-Sparetime-resources.sh",
+				"${PODS_ROOT}/XLForm/XLForm/XLForm.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XLForm.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sparetime/Pods-Sparetime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		881BBAD82405882F006EE41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881BBAE42405882F006EE41B /* ViewController.m in Sources */,
+				881BBB372406ED20006EE41B /* googleViewController.m in Sources */,
+				881BBAE12405882F006EE41B /* AppDelegate.m in Sources */,
+				88F3DC25240B2682005F3426 /* settingsViewController.m in Sources */,
+				881BBAF224058831006EE41B /* main.m in Sources */,
+				881BBB232405B9D1006EE41B /* syncViewController.m in Sources */,
+				881BBB1D24058F73006EE41B /* emailViewController.m in Sources */,
+				881BBB312405C4AC006EE41B /* eventObject.m in Sources */,
+				88F3DC22240B2056005F3426 /* initialViewController.m in Sources */,
+				881BBAEA2405882F006EE41B /* Sparetime.xcdatamodeld in Sources */,
+				881BBB2E2405C134006EE41B /* GoogleOAuth.m in Sources */,
+				881BBB492407416D006EE41B /* activityObject.m in Sources */,
+				881BBB202405B4ED006EE41B /* phoneViewController.m in Sources */,
+				881BBB462407149D006EE41B /* eventsTableView.m in Sources */,
+				88F3DC322412CA95005F3426 /* interestsViewController.m in Sources */,
+				881BBB342406ECFB006EE41B /* DownPicker.m in Sources */,
+				881BBB1A24058C99006EE41B /* splashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881BBAF324058831006EE41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881BBAFC24058831006EE41B /* SparetimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		881BBAFE24058831006EE41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881BBB0724058831006EE41B /* SparetimeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		881BBAF924058831006EE41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881BBADB2405882F006EE41B /* Sparetime */;
+			targetProxy = 881BBAF824058831006EE41B /* PBXContainerItemProxy */;
+		};
+		881BBB0424058831006EE41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 881BBADB2405882F006EE41B /* Sparetime */;
+			targetProxy = 881BBB0324058831006EE41B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		881BBAE52405882F006EE41B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881BBAE62405882F006EE41B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		881BBAED24058831006EE41B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				881BBAEE24058831006EE41B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		881BBB0924058832006EE41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		881BBB0A24058832006EE41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		881BBB0C24058832006EE41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F92D1A7AEEB1F8CCE1781D3 /* Pods-Sparetime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG84B9AVXY;
+				INFOPLIST_FILE = Sparetime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfisher.Sparetime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		881BBB0D24058832006EE41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C40AE9BD862DE9DA392445 /* Pods-Sparetime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG84B9AVXY;
+				INFOPLIST_FILE = Sparetime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfisher.Sparetime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		881BBB0F24058832006EE41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D94D7E18529967970A9594 /* Pods-SparetimeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG84B9AVXY;
+				INFOPLIST_FILE = SparetimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfisher.SparetimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparetime.app/Sparetime";
+			};
+			name = Debug;
+		};
+		881BBB1024058832006EE41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC751AC7107297C5AE87EDCA /* Pods-SparetimeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG84B9AVXY;
+				INFOPLIST_FILE = SparetimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfisher.SparetimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sparetime.app/Sparetime";
+			};
+			name = Release;
+		};
+		881BBB1224058832006EE41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47570A68C9A82E2BACD0225 /* Pods-SparetimeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG84B9AVXY;
+				INFOPLIST_FILE = SparetimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfisher.SparetimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sparetime;
+			};
+			name = Debug;
+		};
+		881BBB1324058832006EE41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2EFC685BB6B8923A932809 /* Pods-SparetimeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG84B9AVXY;
+				INFOPLIST_FILE = SparetimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brianfisher.SparetimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sparetime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		881BBAD72405882F006EE41B /* Build configuration list for PBXProject "Sparetime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881BBB0924058832006EE41B /* Debug */,
+				881BBB0A24058832006EE41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881BBB0B24058832006EE41B /* Build configuration list for PBXNativeTarget "Sparetime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881BBB0C24058832006EE41B /* Debug */,
+				881BBB0D24058832006EE41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881BBB0E24058832006EE41B /* Build configuration list for PBXNativeTarget "SparetimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881BBB0F24058832006EE41B /* Debug */,
+				881BBB1024058832006EE41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		881BBB1124058832006EE41B /* Build configuration list for PBXNativeTarget "SparetimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				881BBB1224058832006EE41B /* Debug */,
+				881BBB1324058832006EE41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		881BBAE82405882F006EE41B /* Sparetime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				881BBAE92405882F006EE41B /* Sparetime.xcdatamodel */,
+			);
+			currentVersion = 881BBAE92405882F006EE41B /* Sparetime.xcdatamodel */;
+			path = Sparetime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 881BBAD42405882F006EE41B /* Project object */;
+}
