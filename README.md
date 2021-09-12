@@ -1,4 +1,4 @@
-# sparetime-app
-A iOS application that presents events that matches your schedule. Now available on appstore as mySparetime.  
+# Sparetime
+Sparetime is an iOS application that curates events that matches the user's schedule. Now available on appstore as mySparetime.  
 
 ![alt text](./description/one-pager.png)
